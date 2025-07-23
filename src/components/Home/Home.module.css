@@ -1,0 +1,7 @@
+.title {
+  @apply text-xl text-black my-4 mx-0 p-0;
+}
+
+.paragraph {
+  @apply text-base text-gray m-0 mb-2 p-0;
+}
