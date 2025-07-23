@@ -1,0 +1,38 @@
+.container {
+  @apply max-w-[1200px] mx-auto my-0 px-4 py-16;
+}
+
+.header {
+  @apply mb-4 pb-3;
+}
+
+.title {
+  @apply text-xxl font-bold text-black mb-2;
+}
+
+.subtitle {
+  @apply text-sm text-black;
+}
+
+.label {
+  @apply inline-block w-[90px] text-gray;
+}
+
+.articlesGrid {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5;
+}
+
+.articleCard {
+  @apply shadow-[0_1px_3px_rgba(0,0,0,0.1)] rounded-lg hover:shadow-[0_4px_6px_rgba(0,0,0,0.1)] hover:-translate-y-0.5;
+  @apply bg-white p-4 transition-all duration-200;
+}
+
+.articleTitle {
+  @apply first-letter:uppercase;
+  @apply text-xl font-bold text-black mb-3;
+}
+
+.articleBody {
+  @apply leading-normal first-letter:uppercase;
+  @apply text-gray text-sm mb-4;
+}
